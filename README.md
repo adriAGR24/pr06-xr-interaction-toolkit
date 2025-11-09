@@ -32,7 +32,7 @@ public class ChangeColorOnSelection : MonoBehaviour
 }
 ```
 
-### Cubo ercano
+### Cubo cercano
 
 Posteriormente, se ha creado un segundo cubo, esta vez más cercano al jugador. En esta ocasión, para que el jugador pueda levantarlo y arrastrarlo, se le ha añadido el componente `XR Grab Interactable`. El script creado para este objeto, contiene una clase que define el método `PrintMessage`, que luego estará suscrito a `SelectEntered` del component `XR Grab Interactable`. Así pues, cuando el jugador agarre el cubo, se imprimirá un mensaje por la consola.
 
